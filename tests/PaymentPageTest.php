@@ -18,7 +18,7 @@ class PaymentPageTest extends \PHPUnit\Framework\TestCase
         $url = $paymentPage->getUrl($payment);
 
         self::assertEquals(
-            'https://paymentpage.ecommpay.com/payment?project_id=100&payment_description=B%2526W' .
+            'https://paymentpage.ecommpay.com/payment?project_id=100&payment_description=B%26W' .
             '&signature=X9rP65p71v5vteLWHBroNr5NE1GrqBu%2FjyFKk7BhZVgtPIFiO3iquKIAPtKkuSD7htuWiLp8DRyfL4H9vT5d3A%3D%3D',
             $url
         );
